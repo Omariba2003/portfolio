@@ -1,0 +1,133 @@
+/** ====================== Mobile Phones ======================= */
+@media screen and (max-width: 640px) {
+    nav {
+        padding: 25px 0px;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        z-index: 1000;
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    menu ul {
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        background: rgb(10, 17, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        flex-direction: column;
+        padding: 40px 20px;
+        width: 50%;
+    }
+
+    .nav_toggler {
+        display: block;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav_toggler_close {
+        display: none;
+    }
+
+    .nav_toggler span {
+        font-size: 20px;
+        display: inline-block;
+        position: relative;
+    }
+
+    li a {
+        font-size: 105%;
+    }
+
+    .main-content .container{
+        flex-direction: column;
+        gap: 50px;
+        padding-top: 80px;
+        width: 100%;
+    }
+
+    .main-content .container .TEXT {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .main-content .container .TEXT h1 {
+      font-size: 26px;
+      letter-spacing: 5px;
+      text-align: center;
+    }
+    
+    .main-content .container .TEXT p {
+      padding: 15px 0px;
+      line-height: normal;
+      font-size: 100%;
+      text-align: center;
+    }
+
+    .btn-group {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .avatar-box {
+      padding: 20px;
+      width: 280px;
+      height: 280px;
+      margin-bottom: 40px;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      letter-spacing: 5px;
+    }
+
+    .about-row {
+        flex-direction: column;
+    }
+
+    .about-pic {
+      width: 100%;
+    }
+
+    .about-txt {
+      width: 100%;
+    }
+
+    .about-box {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .contact-card {
+      width: 100%;
+      padding: 10px;
+    }
+
+    .social-links {
+      flex-direction: column;
+    }
+    
+    form {
+      padding: 20px 40px;
+      width: 100%;
+    }
+    
+    .row {
+      flex-direction: column;
+    }
+}
